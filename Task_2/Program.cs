@@ -1,5 +1,5 @@
 ﻿#region Задание 2
-    bool IntersectionLins(double b1,double k1,double b2,double k2){
+    bool IntersectionLines(double b1,double k1,double b2,double k2){
         double x = (b1 - b2) / (k1 - k2);
         double y = k1 * x + b1;
 
